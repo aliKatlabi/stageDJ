@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "outfits": [
+
+    {
+      "id": "kick_outfit_01",
+      "roleId": "kick",
+      "loopAssetId": "kick_loop_01",
+      "energy": 3,
+      "visual": { "sprite": "assets/sprites/characters/kick/kick_outfit_01.png" },
+      "animationPreset": { "idle": "idle_soft", "performing": "perform_drive", "transition": "transform_flash", "accent": "accent_hit" }
+    },
+    {
+      "id": "perc_outfit_01",
+      "roleId": "perc",
+      "loopAssetId": "perc_loop_01",
+      "energy": 3,
+      "visual": { "sprite": "assets/sprites/characters/perc/perc_outfit_01.png" },
+      "animationPreset": { "idle": "idle_soft", "performing": "perform_tick", "transition": "transform_flash", "accent": "accent_hit" }
+    },
+    {
+      "id": "bass_outfit_01",
+      "roleId": "bass",
+      "loopAssetId": "bass_loop_01",
+      "energy": 3,
+      "visual": { "sprite": "assets/sprites/characters/bass/bass_outfit_01.png" },
+      "animationPreset": { "idle": "idle_sway", "performing": "perform_sway", "transition": "transform_flash", "accent": "accent_hit" }
+    },
+    {
+      "id": "pads_outfit_01",
+      "roleId": "pads",
+      "loopAssetId": "pads_loop_01",
+      "energy": 2,
+      "visual": { "sprite": "assets/sprites/characters/pads/pads_outfit_01.png" },
+      "animationPreset": { "idle": "idle_float", "performing": "perform_float", "transition": "transform_flash", "accent": "accent_soft" }
+    },
+    {
+      "id": "lead_outfit_01",
+      "roleId": "lead",
+      "loopAssetId": "lead_loop_01",
+      "energy": 3,
+      "visual": { "sprite": "assets/sprites/characters/lead/lead_outfit_01.png" },
+      "animationPreset": { "idle": "idle_poised", "performing": "perform_flick", "transition": "transform_flash", "accent": "accent_hit" }
+    },
+    {
+      "id": "vox_outfit_01",
+      "roleId": "vox",
+      "loopAssetId": "vox_sentence_01",
+      "energy": 3,
+      "visual": { "sprite": "assets/sprites/characters/vox/vox_outfit_01.png" },
+      "animationPreset": { "idle": "idle_breathe", "performing": "perform_sing", "transition": "transform_flash", "accent": "accent_hit" }
+    }
+  ]
+}

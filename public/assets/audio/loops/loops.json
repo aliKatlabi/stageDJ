@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "bpm": 140,
+  "loops": [
+    {
+      "id": "kick_loop_01",
+      "category": "kick",
+      "file": "audio/loops/kick/kick_loop_01.wav",
+      "bars": 1,
+      "gainDb": -6,
+      "tags": ["clean", "driving"]
+    },
+    {
+      "id": "vox_sentence_01",
+      "category": "vox",
+      "file": "audio/loops/vox/vox_sentence_01.wav",
+      "bars": 2,
+      "gainDb": -9,
+      "sentenceHook": true,
+      "text": "REPLACE WITH YOUR SENTENCE",
+      "tags": ["sentence", "hook"]
+    }
+  ]
+}

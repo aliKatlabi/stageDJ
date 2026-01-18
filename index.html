@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StageDJ</title>
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #0b0b12; }
+      #app { position: relative; width: 100%; height: 100%; }
+      canvas { display: block; }
+      #debugOverlay {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        padding: 10px 12px;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 12px;
+        color: #e9e9f1;
+        background: rgba(0,0,0,0.55);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 10px;
+        max-width: 520px;
+        z-index: 10;
+      }
+      #debugOverlay button {
+        font: inherit;
+        color: #e9e9f1;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.18);
+        border-radius: 8px;
+        padding: 4px 8px;
+        cursor: pointer;
+      }
+      #debugOverlay button:hover { background: rgba(255,255,255,0.12); }
+      #debugOverlay .row { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
+      #debugOverlay .muted { opacity: 0.7; }
+      #debugOverlay .warn { color: #ffcc66; }
+      #debugOverlay .err { color: #ff6b6b; }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="debugOverlay"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "roles": [
+    { "id": "kick", "displayName": "Kick/Drive", "category": "kick", "maxInstances": 1, "defaultOutfitId": "kick_outfit_01" },
+    { "id": "perc", "displayName": "Perc/Hats", "category": "perc", "maxInstances": 1, "defaultOutfitId": "perc_outfit_01" },
+    { "id": "bass", "displayName": "Bass", "category": "bass", "maxInstances": 1, "defaultOutfitId": "bass_outfit_01" },
+    { "id": "pads", "displayName": "Pads/Choir", "category": "pads", "maxInstances": 1, "defaultOutfitId": "pads_outfit_01" },
+    { "id": "lead", "displayName": "Lead/Bells", "category": "lead", "maxInstances": 1, "defaultOutfitId": "lead_outfit_01" },
+    { "id": "vox",  "displayName": "Vox/Chants", "category": "vox",  "maxInstances": 1, "defaultOutfitId": "vox_outfit_01" }
+  ]
+}

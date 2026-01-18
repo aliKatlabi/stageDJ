@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "projectBpm": 140,
+  "loops": [
+    { "id": "kick_loop_01", "category": "kick", "file": "assets/audio/loops/kick/kick_loop_01.wav", "bars": 1, "gainDb": -6, "tags": ["driving"] },
+    { "id": "perc_loop_01", "category": "perc", "file": "assets/audio/loops/perc/perc_loop_01.wav", "bars": 1, "gainDb": -10, "tags": ["sparkle"] },
+    { "id": "bass_loop_01", "category": "bass", "file": "assets/audio/loops/bass/bass_loop_01.wav", "bars": 2, "gainDb": -9, "tags": ["pulse"] },
+    { "id": "pads_loop_01", "category": "pads", "file": "assets/audio/loops/pads/pads_loop_01.wav", "bars": 4, "gainDb": -14, "tags": ["airy"] },
+    { "id": "lead_loop_01", "category": "lead", "file": "assets/audio/loops/lead/lead_loop_01.wav", "bars": 2, "gainDb": -12, "tags": ["bells"] },
+    { "id": "vox_sentence_01", "category": "vox", "file": "assets/audio/loops/vox/vox_sentence_01.wav", "bars": 2, "gainDb": -10, "sentenceHook": true, "text": "REPLACE_WITH_YOUR_SENTENCE", "tags": ["sentence"] },
+    { "id": "kick_silence_01", "category": "kick", "file": "assets/audio/loops/silence/kick_silence_01.wav", "bars": 1, "gainDb": -99, "tags": ["silence"] }
+
+]
+}
